@@ -135,7 +135,7 @@ table {
 }
 
 .trinket-image{
-    width: 500px;
+    width: 700px;
 }
 
 h3 {
@@ -147,7 +147,7 @@ h4{
 }
 
 .tag{
-    color:red;
+    background-color:red;
 }
 
 /* 
@@ -158,16 +158,9 @@ tag
 
 */
 
-.column{
-    float: left;
-    width: 33.33%;
-    padding: 20px;
-}
-/* from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns
-Helped me format into three columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.item {
+    border:1px solid red;
+    padding:20px;
+    margin:20px;
+    display:flex;
 }
